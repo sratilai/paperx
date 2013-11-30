@@ -1,5 +1,12 @@
 # The Rise and Fall of Emperor Galigula
 
+<!--
+# Commands
+cd working directory
+
+pandoc -s essay_galigula.md -o essay_galigula.html
+
+-->
 
 ## The Rise
 
