@@ -10,4 +10,10 @@ To see them *rendered* click the links from below:
 - [theory_paper.pdf](https://rawgithub.com/digieast/paperx/master/theory_paper.pdf)
 - [slides.html](https://rawgithub.com/digieast/paperx/master/slides.html)
 
+## Processing the source files
+
+Each source file has a short command in within tags `<!--` and `-->` that converts the source code into html/pdf. To be able to run the commands you need to have **pandoc** and **latex** installed. Follow these directions:
+
+- [Installing Pandoc](http://johnmacfarlane.net/pandoc/installing.html)  - duration of download and install approx. 30s.
+- [Latex:in asentaminen linuxiin, Mac OS X:ään ja Windowsiin](http://www.latex-project.org/ftp.html) - duration of download and install approx. 60 min.
 
