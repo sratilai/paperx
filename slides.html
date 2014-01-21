@@ -1,70 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
-  <meta name="generator" content="pandoc" />
-  <meta name="author" content="John Doe" />
-  <meta name="date" content="2013-11-30" />
-  <title>Habits</title>
-  <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" type="text/css" media="screen, projection, print"
-    href="http://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css" />
-  <script src="http://www.w3.org/Talks/Tools/Slidy2/scripts/slidy.js.gz"
-    charset="utf-8" type="text/javascript"></script>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Some One" />
+  <meta name="dcterms.date" content="2014-01-22" />
+  <title>Theory and beyond</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/theme/simple.css" id="theme">
+  <link rel="stylesheet" media="print" href="http://lab.hakim.se/reveal-js/css/print/pdf.css" />
+  <!--[if lt IE 9]>
+  <script src="http://lab.hakim.se/reveal-js/lib/js/html5shiv.js"></script>
+  <![endif]-->
 </head>
 <body>
-<div class="slide titlepage">
-  <h1 class="title">Habits</h1>
-  <p class="author">
-John Doe
-  </p>
-  <p class="date">November 30, 2013</p>
-</div>
-<div class="section slide level1" id="in-the-morning">
-<h1>In the morning</h1>
-<h2 id="getting-up">Getting up</h2>
-<ul>
-<li>Turn off alarm</li>
-<li>Get out of bed</li>
-</ul>
-<h2 id="breakfast">Breakfast</h2>
-<ul>
-<li>Eat eggs</li>
-<li>Drink coffee</li>
-</ul>
-</div>
-<div class="section slide level1" id="in-the-evening">
-<h1>In the evening</h1>
-<h2 id="dinner">Dinner</h2>
-<ul>
-<li>Eat spaghetti</li>
-<li>Drink wine</li>
-</ul>
-</div>
-<div class="section slide level1">
+  <div class="reveal">
+    <div class="slides">
 
-<div class="figure">
-<img src="images/spaghetti.jpg" alt="picture of spaghetti" /><p class="caption">picture of spaghetti</p>
-</div>
-<h2 id="going-to-sleep">Going to sleep</h2>
+<section>
+    <h1 class="title">Theory and beyond</h1>
+    <h2 class="author">Some One</h2>
+    <h3 class="date">January 22, 2014</h3>
+</section>
+
+<section><section id="first-level-header" class="titleslide slide level1"><h1>First level header</h1></section><section id="regular-slide-with-incremental-list" class="slide level2">
+<h1>Regular slide with incremental list</h1>
 <ul>
-<li>Get in bed</li>
-<li>Count sheep</li>
+<li class="fragment">First</li>
+<li class="fragment">Second</li>
+<li class="fragment">Third</li>
 </ul>
-</div>
-<div class="section slide level1" id="my-favourite-recipe">
-<h1>My favourite recipe</h1>
-<iframe width="560" height="315" src="//www.youtube.com/embed/bjmYkPkjnVo" frameborder="0" allowfullscreen></iframe>
+</section><section id="same-with-numbered-bullets" class="slide level2">
+<h1>Same with numbered bullets</h1>
+<ol type="1">
+<li class="fragment">First</li>
+<li class="fragment">Second</li>
+<li class="fragment">Third</li>
+</ol>
+</section><section id="image-with-caption-text" class="slide level2">
+<h1>Image with caption text</h1>
+<figure>
+<img src="http://fc06.deviantart.net/fs70/f/2013/153/2/6/digi_coffee_by_theanimalfan90-d67mr4o.png" alt="Digicoffee image" /><figcaption>Digicoffee image</figcaption>
+</figure>
+</section></section>
+<section><section id="another-first-level-header" class="titleslide slide level1"><h1>Another first level header</h1></section><section id="a-video" class="slide level2">
+<h1>A video</h1>
+<iframe src="//player.vimeo.com/video/84336261" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>
+<a href="http://vimeo.com/84336261">Notes on Blindness</a> from <a href="http://vimeo.com/newyorktimes">The New York Times - Video</a> on <a href="https://vimeo.com">Vimeo</a>.
+</p>
 
-<!--
-cd working directory
-pandoc -t slidy -s slides.md -o slides.html # slidy
--->
+</section></section>
+<section><section id="thank-you" class="titleslide slide level1"><h1>Thank you!</h1></section></section>
+    </div>
+  </div>
 
+  <script src="http://lab.hakim.se/reveal-js/lib/js/head.min.js"></script>
+  <script src="http://lab.hakim.se/reveal-js/js/reveal.min.js"></script>
 
-</div>
-</body>
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        theme: 'simple', // available themes are in /css/theme
+        transition: 'fade', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'http://lab.hakim.se/reveal-js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'http://lab.hakim.se/reveal-js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'http://lab.hakim.se/reveal-js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: 'http://lab.hakim.se/reveal-js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'http://lab.hakim.se/reveal-js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+  </body>
 </html>

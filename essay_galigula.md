@@ -1,13 +1,5 @@
 # The Rise and Fall of Emperor Galigula
 
-<!--
-# Commands
-cd working directory
-
-pandoc -s essay_galigula.md -o essay_galigula.html
-
--->
-
 ## The Rise
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor at metus eu bibendum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris vel lacinia dolor. Nulla at ipsum quis turpis tincidunt fringilla. Fusce blandit mollis pulvinar. Phasellus venenatis porta urna eu congue. Proin fringilla luctus pharetra. Cras ut odio ac augue luctus tempor. Phasellus tincidunt lectus ut tortor sodales, sed varius nisl dignissim. Praesent ut erat a erat congue tempor.

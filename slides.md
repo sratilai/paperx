@@ -1,40 +1,40 @@
-% Habits
-% John Doe
-% November 30, 2013
+---
+title:  Theory and beyond
+author: Some One
+date: January 22, 2014
+...
 
-# In the morning
 
-## Getting up
+# First level header
 
-- Turn off alarm
-- Get out of bed
+-------
 
-## Breakfast
+## Regular slide with incremental list
+>- First
+>- Second
+>- Third
 
-- Eat eggs
-- Drink coffee
+-------
 
-# In the evening
+## Same with numbered bullets
+>1. First
+>2. Second
+>3. Third
 
-## Dinner
+-------
 
-- Eat spaghetti
-- Drink wine
+## Image with caption text
 
-------------------
+![Digicoffee image](http://fc06.deviantart.net/fs70/f/2013/153/2/6/digi_coffee_by_theanimalfan90-d67mr4o.png)
 
-![picture of spaghetti](images/spaghetti.jpg)
 
-## Going to sleep
 
-- Get in bed
-- Count sheep
+# Another first level header
 
-# My favourite recipe
+-------
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/bjmYkPkjnVo" frameborder="0" allowfullscreen></iframe>
+## A video
 
-<!--
-cd working directory
-pandoc -t slidy -s slides.md -o slides.html # slidy
--->
+<iframe src="//player.vimeo.com/video/84336261" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/84336261">Notes on Blindness</a> from <a href="http://vimeo.com/newyorktimes">The New York Times - Video</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+# Thank you!
