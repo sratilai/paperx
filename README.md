@@ -25,10 +25,8 @@ Use following scripts to convert slides into desired format
 
 For converting the **theory_paper.md**
 
-- **pdf**: `pandoc --filter pandoc-citeproc theory_paper.md -o theory_paper.pdf --toc --n
-umber-sections`
-- **docx**: `pandoc --filter pandoc-citeproc theory_paper.md -o theory_paper.docx --toc --n
-umber-sections`
+- **pdf**: `pandoc --filter pandoc-citeproc theory_paper.md -o theory_paper.pdf --toc --number-sections`
+- **docx**: `pandoc --filter pandoc-citeproc theory_paper.md -o theory_paper.docx --toc --number-sections`
 
 For converting the **slides.md**
 
